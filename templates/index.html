@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Cafe Management System</h2>
+<form method="post">
+    <input type="radio" name="menu" value="1">
+    <label>New Order</label><br>
+    <input type="radio" name="menu" value="2">
+    <label>Update/Cancel Order</label><br>
+    <input type="radio" name="menu" value="3">
+    <label>Setting</label><br>
+    <input type="radio" name="menu" value="4">
+    <label>View/Export Data</label><br><br>
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}

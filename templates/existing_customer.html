@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>New Order</h2>
+<form method="post">
+    <label for="customer_id">Customer ID:</label><br>
+    <input type="number" id="customer_id" name="customer_id" required><br><br>
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}

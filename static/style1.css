@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body {
+    position: relative;
+    font-family: 'Bellota Text';
+    background-color: #ffffff;
+    word-break: break-word;
+}
+
+.heading-div {
+    background-color: #E7E8D1;
+    color: #31473A;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0.6em 0.6em 1.2em #A7BEAE, -0.5em -0.5em 1em #E7E8D1;
+    padding: 1px;
+    margin: 20px;
+}
+
+.cafe-name {
+    color: #31473A;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1px;
+    margin: 20px;
+}
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+    display: flex;
+  }
+
+.column {
+    float: left;
+    width: 50%;
+    flex: 50%;
+    background-color: #E7E8D1;
+    color: #31473A;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0.6em 0.6em 1.2em #A7BEAE, -0.5em -0.5em 1em #E7E8D1;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    text-decoration: none;
+  }
+
+.column:hover {
+    background-color: #ffffff;
+}
+
+.center-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exit-div {
+    background-color: #E7E8D1;
+    color: #31473A;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0.6em 0.6em 1.2em #A7BEAE, -0.5em -0.5em 1em #E7E8D1;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center; 
+    text-decoration: none;
+}
+
+.exit-div:hover {
+    background-color: #ffffff;
+}

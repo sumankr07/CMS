@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>New Order</h2>
+<form method="post">
+    <p>Customer ID: {{ customer_id }}</p>
+    <p>Customer Name: {{ customer_name }}</p>
+    <p>Phone No.: {{ customer_phoneNo }}</p>
+    <p>Product ID: {{ product_id }}</p>
+    <p>Product Type: {{ product_type_name }}</p>
+    <p>Product Name: {{ product_name }}</p>
+    <p>Product Price: {{ product_price }}</p>
+    <p>Quantity: <input type="number" name="quantity" id="quantity" ></p>
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}

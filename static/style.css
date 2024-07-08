@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul.flashes {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.flashes li {
+    background: #f2dede;
+    color: #a94442;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ebccd1;
+    border-radius: 5px;
+}

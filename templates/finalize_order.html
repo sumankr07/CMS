@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>New Order</h2>
+<p>Oeder ID: {{ order_id }}</p>
+<p>Order Date: {{ order_date }}</p>
+<p>order Time: {{ order_time }}</p>
+<p>Customer ID: {{ customer_id }}</p>
+<p>Customer Name: {{ customer_name }}</p>
+<p>Phone No.: {{ customer_phoneNo }}</p>
+<p>Product ID: {{ product_id }}</p>
+<p>Product Type: {{ product_type_name }}</p>
+<p>Product Name: {{ product_name }}</p>
+<p>Product Price: {{ product_price }}</p>
+<p>Quantity: {{ quantity }}</p>
+<p>Total Amount: {{ total_amount }}</p>
+<p>Payment Method: {{payment_method}}</p>
+{% endblock %}

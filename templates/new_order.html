@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>New Order</h2>
+<form method="post">
+    <input type="radio" name="customer_option" value="1">
+    <label>New Customer</label><br>
+    <input type="radio" name="customer_option" value="2">
+    <label>Existing Customer</label><br><br>
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}

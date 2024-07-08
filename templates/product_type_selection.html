@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>New Order</h2>
+<form method="post">
+    {% for product_type in (all_product_type) %}
+        <input type="radio" id="{{ product_type[0] }}" name="product_type" value="{{ product_type[0] }}">
+        <label for="product_type">{{ product_type[0] }}</label><br>
+    {% endfor %}
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}

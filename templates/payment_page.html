@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>New Order</h2>
+<form method="post">
+    <p>Total Amount: {{ total_amount }}</p>
+    <input type="radio" name="payment_method" value="Cash">
+    <label>Cash</label><br>
+    <input type="radio" name="payment_method" value="UPI">
+    <label>UPI</label><br>
+    <input type="radio" name="payment_method" value="Debit Card">
+    <label>Debit Card</label><br>
+    <input type="radio" name="payment_method" value="Credit Card">
+    <label>Credit Card</label><br><br>
+    <input type="submit" value="Confirm Order">
+</form>
+{% endblock %}
